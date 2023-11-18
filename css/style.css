@@ -14,11 +14,12 @@ body {
     align-items: center;
     gap: 32px;
     /* Padding funciona em sentido horario */
-    padding: 24px 80px 128px 80px;
+    padding: 100px 80px 128px 80px;
     position: relative;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #312783;
     font-weight: 600;
     font-size: 32px;
@@ -66,16 +67,19 @@ h1, h2 {
     margin-left: 32px;
 }
 
-#bjorn, #frida {
+#bjorn,
+#frida {
     padding: 64px 80px;
     text-align: center;
 }
 
-#bjorn img, #frida img {
+#bjorn img,
+#frida img {
     margin: 64px auto;
 }
 
-#bjorn .paragrafo, #frida .paragrafo {
+#bjorn .paragrafo,
+#frida .paragrafo {
     max-width: 950px;
     margin: 0 auto;
 }
@@ -131,7 +135,8 @@ footer {
     padding: 64px 80px;
 }
 
-footer img, footer .titulo {
+footer img,
+footer .titulo {
     display: block;
     font-weight: 600;
     margin-bottom: 24px;
